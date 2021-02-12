@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import About from './Components/About/index';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <Route path='/'/>
+        <Route exact path='/' component={About}/>
       </Switch>
     </Router>
     </>
