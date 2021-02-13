@@ -3,16 +3,20 @@ import "./styles.css";
 
 export default function About() {
   return (
-    <>
     <div className="div1">
-      <h1>Hi! I'm Ana Barua!</h1>
-      I'm a FullStack Web Developer, and I'm actively looking for an exciting
-      job where I can constantly learn new skills and grow as a professional.
-      I'm interested on both Front and Back end and I'm open to teach myself any new
-      technologies I might need to keep moving forward. I have experience in
-      team work projects with technologies such as HTML, CSS, Node.js, Express,
-      React, Redux, Sequelize, PostgreSQL, and MongoDb.
+      <div className="div2">
+        I'm a graduate from the HENRY bootcamp, where we had +700 hours of
+        practice in real projects with technologies such as HTML, CSS, Node.js,
+        Express, React, Redux, Sequelize, PostgreSQL, and MongoDb. 
+        Two of said projects are shown on this page!
+        <button>See my projects</button>
+      </div>
+      <div className="dev">
+        <img
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQHPxkhz29TPeg/profile-displayphoto-shrink_200_200/0/1611190654795?e=1618444800&v=beta&t=sFR3PAmdpPe-lHsKgsu1rQSlKGRFD4gX40g0CxV-smE"
+          alt="ana"
+        />
+      </div>
     </div>
-    </>
   );
 }

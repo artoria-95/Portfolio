@@ -4,13 +4,13 @@ import * as CgIcons from "react-icons/cg";
 
 export const SidebarData = [
   {
-    title: 'Holis',
+    title: 'Home',
     path: '/',
     icon: <AiIcons.AiFillHome/>,
     cName: 'nav-text'
   },{
-    title: 'Holis',
-    path: '/',
+    title: 'About',
+    path: '/about',
     icon: <AiIcons.AiFillHome/>,
     cName: 'nav-text'
   },{
