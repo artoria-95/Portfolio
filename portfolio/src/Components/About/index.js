@@ -4,6 +4,8 @@ import "./styles.css";
 export default function About() {
   return (
     <div className="div1">
+      I'm interested on both Front and Back end and I love to find new things
+        to learn every day, hoping to someday be part of a team that will be the best at what we do!.
       <div className="div2">
         I'm a graduate from the HENRY bootcamp, where we had +700 hours of
         practice in real projects with technologies such as HTML, CSS, Node.js,
