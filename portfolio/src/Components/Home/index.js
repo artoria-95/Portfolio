@@ -12,11 +12,7 @@ export default function Home() {
           exciting, challenging job where I can improve my skills and grow as a
           professional!
         </p>
-        <div className="div3">
-          <Link to="/about">
-            <button className="btn">Know more</button>
-          </Link>
-        </div>
+        
       </div>
     </div>
   );
