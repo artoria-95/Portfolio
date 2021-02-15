@@ -7,6 +7,29 @@
   font-family: 'Fredericka the Great', cursive;
 }
 body {
-  
+  overflow: hidden;
   background-color: lightcoral;
+}
+
+/*----------ScrollBar----------*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.507); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 18, 18, 0.753); 
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(121, 31, 31); 
 }
