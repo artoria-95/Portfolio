@@ -7,44 +7,18 @@
 }
 .div2 {
   display: inline-block;
-  background-color: lightcoral;
-  padding: 20%;
-  margin: auto;
-  height: max-content;
+  background-color:transparent;
+    height: max-content;
   width: max-content;
   position: relative;
 }
-.div3 {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  width: 100%;
-  padding: 5%;
-}
 
 /* Boton */
-
-.btn {
-  padding: 5px;
-  background-color: brown;
-  border-radius: 4px;
-  color: cornsilk;
-  font-size: 20px;
-  font-weight: 700;
-  box-shadow: 0 0 5px brown;
-  border: 2px solid brown;
-}
-.btn:hover {
-  background-color: cornsilk;
-  color: brown;
-}
 
 /* Texto */
 
 h1 {
   font-size: 40px;
-  margin-bottom: 0.4rem;
 }
 p {
   font-size: 20px;

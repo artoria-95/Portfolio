@@ -1,17 +1,21 @@
 .div1 {
   display: flex;
-  width: 50%;
+  width: 70%;
   margin:auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 
 }
 .dev{
   display: flex;
-    justify-content: space-around;
     -webkit-box-align: center;
     align-items: center;
     flex-direction: column;
     flex: 1 0 20%;
 }
+img {
+  float: right;
+  border-radius: 5px;
+}
+
