@@ -12,8 +12,8 @@ export default function About() {
         practice in real projects with technologies such as HTML, CSS, Node.js,
         Express, React, Redux, Sequelize, PostgreSQL, and MongoDb. 
         Two of said projects are shown on this page!</p>
+      <a href="#projects"><button className="btn">See my projects!</button></a>
       </div>
-      <button><a href="#projects">See my projects!</a></button>
       <div className="dev">
         <img
           src="https://media-exp1.licdn.com/dms/image/C4E03AQHPxkhz29TPeg/profile-displayphoto-shrink_200_200/0/1611190654795?e=1618444800&v=beta&t=sFR3PAmdpPe-lHsKgsu1rQSlKGRFD4gX40g0CxV-smE"

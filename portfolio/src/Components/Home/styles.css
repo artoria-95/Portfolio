@@ -14,6 +14,21 @@
 }
 
 /* Boton */
+.btn {
+  background-color: brown;
+  color: lightcoral;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid brown;
+  box-shadow: brown;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: lightcoral;
+  color: black;
+}
+
 
 /* Texto */
 
