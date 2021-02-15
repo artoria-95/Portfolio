@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/index";
 import About from "./Components/About/index";
+import Projects from "./Components/Projects/index";
 import "./App.css";
 //import Routes from './routes';
 
@@ -13,6 +14,9 @@ function App() {
         </section>
         <section id="about">
           <About />
+        </section>
+        <section id="projects">
+          <Projects />
         </section>
       </div>
       <Navbar/>
