@@ -12,6 +12,7 @@ export default function Home() {
           exciting, challenging job where I can improve my skills and grow as a
           professional!
         </p>
+        <button><a href="#about">about</a></button>
         
       </div>
     </div>
