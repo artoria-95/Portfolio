@@ -4,13 +4,14 @@ import * as AiIcons from "react-icons/ai";
 import * as CgIcons from "react-icons/cg";
 import * as FaIcons from "react-icons/fa";
 import * as MDIcons from "react-icons/md";
+import {useTranslation} from 'react-i18next';
+
 import "./navbar.css";
 
 export default function Navbar() {
 
-  
   return (
-    <div>
+    
       <div className="navbar">
         <div className="media">
           <a href="https://github.com/artoria-95" target="__blank">
@@ -26,7 +27,7 @@ export default function Navbar() {
           <MDIcons.MdLanguage className="lang" />
           <FaIcons.FaLowVision className="dalt" />
         </div>
-    </div>
-    </div>
+      </div>
+    
   );
 }
