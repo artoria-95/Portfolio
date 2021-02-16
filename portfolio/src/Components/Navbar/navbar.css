@@ -15,11 +15,11 @@
   font-size: 30px;
   padding: 10px;
 }
-.gh, .in, .lang, .dalt {
+.gh, .in, .lang, .dalt, .top {
   margin: 10px;
   color: black;
 }
-.gh:hover, .in:hover, .lang:hover, .dalt:hover {
+.gh:hover, .in:hover, .lang:hover, .dalt:hover, .top:hover {
   color: lightcoral;
 }
 

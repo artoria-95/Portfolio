@@ -4,6 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import * as CgIcons from "react-icons/cg";
 import * as FaIcons from "react-icons/fa";
 import * as MDIcons from "react-icons/md";
+import * as IoIcons from "react-icons/io";
 import {useTranslation} from 'react-i18next';
 
 import "./navbar.css";
@@ -26,6 +27,7 @@ export default function Navbar() {
         <div className="stuff">
           <MDIcons.MdLanguage className="lang" />
           <FaIcons.FaLowVision className="dalt" />
+          <a href="#home"><IoIcons.IoIosArrowDropupCircle className="top" /></a>
         </div>
       </div>
     
