@@ -41,23 +41,29 @@
   display: none;
   position: absolute;
   bottom: 40px;
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: rgba(255, 255, 255, 0.877);
   border-radius: 8px;
   min-width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 /*links inside*/
-.dropup-content a {
+.dropup-content .item {
   color: black;
   padding: 5px 5px;
   text-decoration: none;
   display: block;
   font-size: 15px;
   text-align: center;
+  border:transparent;
+  background-color: transparent;
+  width: 100%;
 }
 /*hovers*/
-.dropup-content a:hover {background-color: rgba(165, 42, 42, 0.479)}
+.dropup-content .item:hover {background-color: rgba(165, 42, 42, 0.479)}
 .dropup:hover .dropup-content {
   display: block;
   border-radius: 8px;

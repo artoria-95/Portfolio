@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 import "./navbar.css";
 
 export default function Navbar() {
+  const [t, i18n] = useTranslation("global");
   return (
     <div className="navbar">
       <div className="media">
@@ -30,8 +31,8 @@ export default function Navbar() {
             <MDIcons.MdLanguage className="lang" />
           </div>
           <div className="dropup-content">
-            <a href="#">English</a>
-            <a href="#">Spanish</a>
+            <button className="item" onClick={()=>i18n.changeLanguage("en")}>English</button>
+            <button className="item" onClick={()=>i18n.changeLanguage("es")}>Spanish</button>
           </div>
         </div>
 <div className="dropup">
@@ -39,8 +40,8 @@ export default function Navbar() {
         <FaIcons.FaLowVision className="dalt" />
           </div>
           <div className="dropup-content">
-            <a href="#">Colorblind mode</a>
-            <a href="#">Regular theme</a>
+            <button className="item">Colorblind mode</button>
+            <button className="item">Regular theme</button>
           </div>
         </div>
         <a href="#home">
