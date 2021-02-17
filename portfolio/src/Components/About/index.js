@@ -1,18 +1,19 @@
 import React from "react";
 import "./styles.css";
+import {useTranslation} from 'react-i18next';
 
 export default function About() {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="div1">
       <div className="div2">
-      <p>I'm interested on both Front and Back end and I love to find new things
-        to learn every day, hoping to someday be part of a team that will be the best at what we do!.
-      
-        I'm a graduate from the HENRY bootcamp, where we had +700 hours of
-        practice in real projects with technologies such as HTML, CSS, Node.js,
-        Express, React, Redux, Sequelize, PostgreSQL, and MongoDb. 
-        Two of said projects are shown on this page!</p>
-      <a href="#projects"><button className="btn">See my projects!</button></a>
+      <p>
+      {t("about.text1")}
+      <br/>
+      {t("about.text2")}
+      </p>
+      <a href="#projects"><button className="btn">{t("about.boton")}</button></a>
       </div>
       <div className="dev">
         <img
