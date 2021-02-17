@@ -1,7 +1,25 @@
 {
-  "home":{
-    "title":"Hi! I'm Ana Barua!",
-    "intro":"I'm a FullStack Web Developer, and I'm actively looking for an exciting, challenging job where I can improve my skills and grow as a professional!",
-    "boton":"Find out more"
+  "home": {
+    "title": "Hi! I'm Ana Barua!",
+    "intro": "I'm a FullStack Web Developer, and I'm actively looking for an exciting, challenging job where I can improve my skills and grow as a professional!",
+    "boton": "Find out more"
+  },
+  "about": {
+    "text1": "I'm interested on both Front and Back end and I love to find new things to learn every day, hoping to someday be part of a team that will be the best at what we do!.",
+    "text2": "I'm a graduate from the HENRY bootcamp, where we had +700 hours of practice in real projects with technologies such as HTML, CSS, Node.js, Express, React, Redux, Sequelize, PostgreSQL, and MongoDb. Two of said projects are shown on this page!",
+    "boton":"See my projects!"
+  },
+  "projects":{
+    "boton1":"View Project",
+    "boton2":"View Repository",
+    "boton3":"Not available"
+  },
+  "ecom": {
+    "description":"Project developed in a team of 7 students for the HENRY bootcamp, in which we were to create an E-Commerce simulator.",
+    "technologies":"Technologies:"
+  },
+  "HENRYApp": {
+    "description":"A platform for HENRY students where they can find studying material and recorded lectures, see their account status, and once they pass the final stage of the course they can have access to real job offers",
+    "technologies":"Technologies:"
   }
 }

@@ -1,7 +1,25 @@
 {
   "home":{
     "title":"Hola! Mi nombre es Ana Barua!",
-    "intro":"Soy Fullstack Web Developer, y me encuentro en búsqueda activa de un empleo excitate y desafiante donde pueda desarrollar mis habilidades y crecer como profesional!",
+    "intro":"Soy Fullstack Web Developer, y me encuentro en búsqueda activa de un empleo excitante y desafiante donde pueda desarrollar mis habilidades y crecer como profesional!",
     "boton":"Leer más"
+  },
+  "about": {
+    "text1": "Estoy interesada tanto en Front como en Back end, y amo aprender cosas nuevas todos los días. Espero algun día poder formar parte de un equipo donde seremos los mejores en lo que hacemos!",
+    "text2": "Soy recién graduada del bootcamp HENRY, donde tuvimos +700 horas de practica en proyectos reales con diferentes tecnologías, entre ellas HTML, CSS, Node.js, Express, React, Redux, Sequelize, PostgreSQL, y MongoDb. Dos de esos proyectos se encuentran en este portfolio!",
+    "boton":"Mira mis proyectos!"
+  },
+  "projects":{
+    "boton1":"Ver proyecto",
+    "boton2":"Ver repositorio",
+    "boton3":"No disponible"
+  },
+  "ecom": {
+    "description":"Proyecto desarrollado en equipo por 7 estudiantes para el HENRY bootcamp, en el cual creamos un simulador de E-Commerce.",
+    "technologies":"Tecnologías:"
+  },
+  "HENRYApp": {
+    "description":"Una plataforma para alumnos de HENRY donde pueden encontrar material de estudio, clases grabadas, ver su estado de cuenta, y una vez terminado el último módulo pueden acceder a una bolsa de empleo.",
+    "technologies":"Tecnologías:"
   }
 }
