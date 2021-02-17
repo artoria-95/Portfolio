@@ -8,6 +8,7 @@ const [t, i18n] = useTranslation("global");
 
   return (
     <div className="div1">
+      
       <div className="div2">
         <h1>{t("home.title")}</h1>
         <p>
