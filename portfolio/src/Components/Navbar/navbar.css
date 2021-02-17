@@ -15,11 +15,11 @@
   font-size: 30px;
   padding: 10px;
 }
-.gh, .in, .lang, .dalt, .top {
+.gh, .in, .lang, .dalt, .top, .resume {
   margin: 10px;
   color: black;
 }
-.gh:hover, .in:hover, .lang:hover, .dalt:hover, .top:hover {
+.gh:hover, .in:hover, .lang:hover, .dalt:hover, .top:hover, .resume:hover {
   color: lightcoral;
 }
 
@@ -68,3 +68,5 @@
   display: block;
   border-radius: 8px;
 }
+
+

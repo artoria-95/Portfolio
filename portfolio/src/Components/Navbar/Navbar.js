@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as MDIcons from "react-icons/md";
 import * as IoIcons from "react-icons/io";
+import * as GrIcons from "react-icons/gr";
 import { useTranslation } from "react-i18next";
 
 import "./navbar.css";
@@ -21,6 +22,7 @@ export default function Navbar() {
         >
           <FaIcons.FaLinkedin className="in" />
         </a>
+        <a href="https://drive.google.com/file/d/1BccY0KClJhnRTqFKd2yMqcU93Ed5r7qB/view?usp=sharing" target="__blank"><GrIcons.GrDocumentText className="resume"/></a>
       </div>
       <div className="stuff">
         <div className="dropup">
