@@ -32,7 +32,7 @@ export default function Navbar() {
           </div>
           <div className="dropup-content">
             <button className="item" onClick={()=>i18n.changeLanguage("en")}>English</button>
-            <button className="item" onClick={()=>i18n.changeLanguage("es")}>Spanish</button>
+            <button className="item" onClick={()=>i18n.changeLanguage("es")}>Español</button>
           </div>
         </div>
 <div className="dropup">
@@ -40,8 +40,8 @@ export default function Navbar() {
         <FaIcons.FaLowVision className="dalt" />
           </div>
           <div className="dropup-content">
-            <button className="item">Colorblind mode</button>
-            <button className="item">Regular theme</button>
+            <button className="item">{t("dropups.dalt")}</button>
+            <button className="item">{t("dropups.reg")}</button>
           </div>
         </div>
         <a href="#home">

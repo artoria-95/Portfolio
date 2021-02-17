@@ -21,5 +21,9 @@
   "HENRYApp": {
     "description":"A platform for HENRY students where they can find studying material and recorded lectures, see their account status, and once they pass the final stage of the course they can have access to real job offers",
     "technologies":"Technologies:"
+  },
+  "dropups": {
+    "dalt":"Colorblind mode",
+    "reg":"Regular Theme"
   }
 }

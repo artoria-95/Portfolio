@@ -21,5 +21,9 @@
   "HENRYApp": {
     "description":"Una plataforma para alumnos de HENRY donde pueden encontrar material de estudio, clases grabadas, ver su estado de cuenta, y una vez terminado el último módulo pueden acceder a una bolsa de empleo.",
     "technologies":"Tecnologías:"
+  },
+    "dropups": {
+    "dalt":"Apto daltonismo",
+    "reg":"Pagina regular"
   }
 }
