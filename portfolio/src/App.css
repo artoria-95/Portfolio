@@ -8,14 +8,14 @@
 }
 body {
   flex-direction: column;
-  background-color: lightcoral;
+  background-color: #F4DECB;
   line-height: 1.6;
   height: 100vh;
   overflow:hidden;
 }
 
 .container {
-  width:100%;
+  width:80%;
   height: 100%;
   /*CSS SMOOTH SCROLL*/
   overflow-y: scroll;
@@ -52,11 +52,7 @@ section {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(71, 18, 18, 0.753); 
+  background: #49274A; 
   border-radius: 8px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(121, 31, 31); 
-}

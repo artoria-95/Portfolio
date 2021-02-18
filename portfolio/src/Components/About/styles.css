@@ -17,20 +17,23 @@
 img {
   float: right;
   border-radius: 5px;
+  margin: 10px;
 }
-.btn {
-  background-color: brown;
-  color: lightcoral;
-  padding: 6px;
+.abtn {
+  background-color: #49274A;
+  color: #F4DECB;
+  padding: 10px;
   margin: 10px;
   border-radius: 4px;
-  border: 2px solid brown;
-  box-shadow: brown;
+  border: 2px solid #49274A;
+  box-shadow: black;
   text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
 }
-.btn:hover{
-  background-color: lightcoral;
-  color: black;
+.abtn:hover{
+  background-color: #94618E;
+  color:#F4DECB;
+  padding: 20px;  
 }
-
 

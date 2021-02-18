@@ -9,6 +9,7 @@ function App() {
   return (
     <body>
       <div className="container">
+      <Navbar/>
         <section id="home">
           <Home />
         </section>
@@ -19,7 +20,7 @@ function App() {
           <Projects />
         </section>
       </div>
-      <Navbar/>
+      
     </body>
   );
 }

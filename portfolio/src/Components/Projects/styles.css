@@ -20,23 +20,27 @@ flex-wrap: wrap;
     padding: 5%;
 }
 
-.btn {
-  background-color: brown;
-  color: lightcoral;
-  padding: 6px;
+.pbtn {
+  background-color: #49274A;
+  color: #F4DECB;
+  padding: 10px;
   margin: 10px;
   border-radius: 4px;
-  border: 2px solid brown;
-  box-shadow: brown;
+  border: 2px solid #49274A;
+  box-shadow: black;
   text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
 }
-.btn:hover{
-  background-color: lightcoral;
-  color: black;
+.pbtn:hover{
+  background-color: #94618E;
+  color:#F4DECB;
+  padding: 20px;  
 }
+
 
 .ecom {
   height:50%;
   width:50%;
-  border: 2px solid brown;
+  border: 2px solid #49274A;
 }

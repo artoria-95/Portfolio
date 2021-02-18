@@ -14,7 +14,7 @@ const [t, i18n] = useTranslation("global");
         <p>
           {t("home.intro")}
         </p>
-        <a href="#about"><button className="btn">{t("home.boton")}</button></a>
+        <a href="#about"><button className="hbtn">{t("home.boton")}</button></a>
         
       </div>
     </div>

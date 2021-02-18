@@ -13,7 +13,7 @@ export default function About() {
       <br/>
       {t("about.text2")}
       </p>
-      <a href="#projects"><button className="btn">{t("about.boton")}</button></a>
+      <a href="#projects"><button className="abtn">{t("about.boton")}</button></a>
       </div>
       <div className="dev">
         <img

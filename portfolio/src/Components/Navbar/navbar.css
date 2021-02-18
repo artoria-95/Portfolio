@@ -1,72 +1,49 @@
 
-.navbar {
-  display:flex;
-  background-image: linear-gradient(rgb(117, 31, 31), brown) ; 
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 10vh;
-  justify-content: space-evenly;
-  box-shadow: 0px -2px 2px rgb(117, 31, 31);
-}
-.media, .stuff{
-  display:flex;
-  font-size: 30px;
-  padding: 10px;
-}
-.gh, .in, .lang, .dalt, .top, .resume {
-  margin: 10px;
-  color: black;
-}
-.gh:hover, .in:hover, .lang:hover, .dalt:hover, .top:hover, .resume:hover {
-  color: lightcoral;
-}
-
-.naveg {
-  display: flex;
+*{
+  margin:0;
+  padding:0;
   list-style: none;
-  width:100%;
-  justify-content: center;
-}
-
-/* DROPUP */
- /*container*/
- .dropup {
-  position: relative;
-  display: inline-block;
-}
-/*content*/
-.dropup-content {
-  display: none;
-  position: absolute;
-  bottom: 40px;
-  background-color: rgba(255, 255, 255, 0.877);
-  border-radius: 8px;
-  min-width: max-content;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-/*links inside*/
-.dropup-content .item {
-  color: black;
-  padding: 5px 5px;
   text-decoration: none;
-  display: block;
-  font-size: 15px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right:0;
+  width: 20%;
+  height: 100%;
+  background-color: #F8EEE7;
+  justify-content: space-between;
+  color: #49274A;
+}
+.sidebar ul a {
+  display:block;
+  height:20%;
+  width:100%;
+  line-height: 60px;
+  font-size: 30px;
+  box-sizing: border-box;
+  border-top: 1px solid #94618E;
+  text-align: right;
+  padding:20px;
+  transition: 0.4s;
+}
+ul li:hover a {
+  padding-right:50px;
+  background-color: #94618E;
+  color: #F8EEE7;
+}
+
+h3 {
+  display:block;
+  height:25%;
+  width:100%;
+  line-height: 60px;
+  font-size: 35px;
+  box-sizing: border-box;
+  padding:20px;
   text-align: center;
-  border:transparent;
-  background-color: transparent;
-  width: 100%;
+  background-color: #94618E;
+  color:#F8EEE7;
+  border-bottom: 1px solid #94618E;
 }
-/*hovers*/
-.dropup-content .item:hover {background-color: rgba(165, 42, 42, 0.479)}
-.dropup:hover .dropup-content {
-  display: block;
-  border-radius: 8px;
-}
-
-

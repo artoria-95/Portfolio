@@ -25,5 +25,11 @@
   "dropups": {
     "dalt":"Colorblind mode",
     "reg":"Regular Theme"
+  },
+  "menu": {
+    "home":"Home",
+    "about":"About me",
+    "portfolio":"Projects",
+    "contact":"Contact"
   }
 }
