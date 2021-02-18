@@ -27,6 +27,7 @@
   text-align: right;
   padding:20px;
   transition: 0.4s;
+  text-decoration: none;
 }
 ul li:hover a {
   padding-right:50px;
