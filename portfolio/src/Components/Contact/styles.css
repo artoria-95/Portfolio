@@ -1,0 +1,36 @@
+/* Boton */
+.cbtn {
+  background-color: #49274A;
+  color: #F4DECB;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #49274A;
+  box-shadow: black;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.cbtn:hover{
+  background-color: #94618E;
+  color:#F4DECB;
+  padding: 20px;  
+}
+.gh, .lin, .wpp {
+  color: #49274A;
+  text-decoration: none;
+  font-size: 40px;
+  transition: 0.2s;
+}
+.gh:hover, .lin:hover, .wpp:hover {
+  font-size: 50px;  
+}
+.gh:hover {
+  color: black;
+}
+.lin:hover {
+  color:rgb(2, 2, 207);
+}
+.wpp:hover {
+  color: rgb(3, 189, 3);
+}

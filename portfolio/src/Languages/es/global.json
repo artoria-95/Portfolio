@@ -6,7 +6,7 @@
   },
   "about": {
     "text1": "Estoy interesada tanto en Front como en Back end, y amo aprender cosas nuevas todos los días. ¡Espero algun día poder formar parte de un equipo donde seremos los mejores en lo que hacemos!",
-    "text2": "Soy recién graduada del bootcamp HENRY, donde tuvimos +700 horas de practica en proyectos reales con diferentes tecnologías, entre ellas HTML, CSS, Node.js, Express, React, Redux, Sequelize, PostgreSQL, y MongoDb. Dos de esos proyectos se encuentran en este portfolio!",
+    "text2": "Soy recién graduada del bootcamp HENRY, donde tuvimos +700 horas de practica en proyectos reales con diferentes tecnologías, entre ellas HTML, CSS, Node.js, Express, React, Redux, Sequelize, PostgreSQL, y MongoDb. ¡Dos de esos proyectos se encuentran en este portfolio!",
     "boton":"¡Mira mis proyectos!"
   },
   "projects":{
@@ -31,5 +31,9 @@
     "about":"Sobre mí",
     "portfolio":"Proyectos",
     "contact":"Contacto"
+  },
+  "contacto": {
+    "phone": "Teléfono:",
+    "cv": "Currículum"
   }
 }

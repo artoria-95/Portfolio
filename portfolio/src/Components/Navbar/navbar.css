@@ -16,9 +16,9 @@
   justify-content: space-between;
   color: #49274A;
 }
-.sidebar ul a {
+.sidebar ul li {
   display:block;
-  height:20%;
+  height:17%;
   width:100%;
   line-height: 60px;
   font-size: 30px;
@@ -29,8 +29,8 @@
   transition: 0.4s;
   text-decoration: none;
 }
-ul li:hover a {
-  padding-right:50px;
+ul li:hover  {
+  padding-right:40px;
   background-color: #94618E;
   color: #F8EEE7;
 }
@@ -47,4 +47,12 @@ h3 {
   background-color: #94618E;
   color:#F8EEE7;
   border-bottom: 1px solid #94618E;
+}
+
+.lan {
+  border:hidden;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
 }

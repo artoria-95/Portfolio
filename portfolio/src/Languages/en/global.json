@@ -7,7 +7,7 @@
   "about": {
     "text1": "I'm interested on both Front and Back end and I love to find new things to learn every day, hoping to someday be part of a team that will be the best at what we do!.",
     "text2": "I'm a graduate from the HENRY bootcamp, where we had +700 hours of practice in real projects with technologies such as HTML, CSS, Node.js, Express, React, Redux, Sequelize, PostgreSQL, and MongoDb. Two of said projects are shown on this page!",
-    "boton":"See my projects!"
+    "boton":"Check out my projects!"
   },
   "projects":{
     "boton1":"View Project",
@@ -31,5 +31,9 @@
     "about":"About me",
     "portfolio":"Projects",
     "contact":"Contact"
+  },
+  "contacto": {
+    "phone": "Phone:",
+    "cv": "Check out my resume!"
   }
 }

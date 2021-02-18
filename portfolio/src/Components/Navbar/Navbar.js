@@ -9,25 +9,43 @@ import "./navbar.css";
 
 export default function Navbar() {
   const [t, i18n] = useTranslation("global");
+
   return (
     <div className="sidebar">
       <h3>Menu</h3>
       <ul className="side-nav">
-        
-          <li className="item"><a href="#home" className="home">{t("menu.home")}</a></li>
-        
-        
-          <li className="item"><a href="#about" className="site-name">{t("menu.about")}</a></li>
-        
-        
-          <li className="item"><a href="#projects" className="site-name">{t("menu.portfolio")}</a></li>
-        
-        
-          <li className="item"><a href="#" className="site-name">{t("menu.contact")}</a></li>
-        
-        
-          <li className="item"><a href="#" className="site-name">settings</a></li>
-        
+        <li className="item">
+          <a href="#home" className="home">
+            {t("menu.home")}
+          </a>
+        </li>
+
+        <li className="item">
+          <a href="#about" className="site-name">
+            {t("menu.about")}
+          </a>
+        </li>
+
+        <li className="item">
+          <a href="#projects" className="site-name">
+            {t("menu.portfolio")}
+          </a>
+        </li>
+
+        <li className="item">
+          <a href="#contact" className="site-name">
+            {t("menu.contact")}
+          </a>
+        </li>
+
+        <li className="item">
+          <MDIcons.MdLanguage className="lang" />
+          <button className="lan" onClick={() => i18n.changeLanguage("en")}>
+            {" "}
+            English
+          </button> |{" "}
+          <button className="lan" onClick={() => i18n.changeLanguage("es")}>Español</button>
+        </li>
       </ul>
 
       {/*       
@@ -47,4 +65,3 @@ export default function Navbar() {
     </div>
   );
 }
-

@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className="project-container">
       <div className="project">
-        <h4>E-Commerce</h4>
+        <h4>e-Commerce</h4>
         <img src="https://camo.githubusercontent.com/d2d1a143beb752aad454a314b813dc315f8630fa259a867834351d3cbf3c7aa6/687474703a2f2f7265732e636c6f7564696e6172792e636f6d2f676f6e7a616c6f616775696c61726d2f696d6167652f75706c6f61642f76313631323139353933322f50726f64756374735f6672396f36622e6a7067" className="ecom"/>
         <p>
           {t("ecom.description")}
