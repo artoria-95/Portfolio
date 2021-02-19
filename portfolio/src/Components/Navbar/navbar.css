@@ -3,7 +3,6 @@
   margin:0;
   padding:0;
   list-style: none;
-  text-decoration: none;
 }
 .sidebar {
   display: flex;
@@ -29,9 +28,19 @@
   text-decoration: none;
   color: #49274A;
 }
-ul li:hover  {
+ul li:hover {
   padding-right:40px;
   background-color: #94618E;
+  color: #F8EEE7;
+}
+.lan:hover {
+  color: #F8EEE7;
+}
+
+a {
+  color: #49274A;
+}
+a:hover {
   color: #F8EEE7;
 }
 
@@ -59,4 +68,8 @@ h3 {
 
 .ic {
   padding:5px;
+}
+
+a {
+  text-decoration: none;
 }
