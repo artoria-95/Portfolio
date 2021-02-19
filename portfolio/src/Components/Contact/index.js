@@ -14,7 +14,7 @@ const [t, i18n] = useTranslation("global");
       <h2>Ana Paula Barúa</h2>
       <p>e-Mail: apbarua95@gmail.com
       <br/>
-      {t("contacto.phone")}: +549 11-5808-1337
+      {t("contacto.phone")} +549 11-5808-1337
       <br/>
       <a href="https://github.com/artoria-95" target="_blank"><FaIcons.FaGithubSquare className="gh"/></a>
       <a href="https://www.linkedin.com/in/ana-paula-barua-188013131/" target="_blank"><FaIcons.FaLinkedin className="lin"/></a>
