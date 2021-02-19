@@ -16,35 +16,35 @@ export default function Navbar() {
       <ul className="side-nav">
         <li className="item">
           <a href="#home" className="home">
-            {t("menu.home")}
+            {t("menu.home")} <FaIcons.FaHome className="ic"/>
           </a>
         </li>
 
         <li className="item">
           <a href="#about" className="site-name">
-            {t("menu.about")}
+            {t("menu.about")} <FaIcons.FaChild className="ic"/>
           </a>
         </li>
 
         <li className="item">
           <a href="#projects" className="site-name">
-            {t("menu.portfolio")}
+            {t("menu.portfolio")} <FaIcons.FaCode className="ic"/>
           </a>
         </li>
 
         <li className="item">
           <a href="#contact" className="site-name">
-            {t("menu.contact")}
+            {t("menu.contact")} <FaIcons.FaCommentDots className="ic"/>
           </a>
         </li>
 
         <li className="item">
-          <MDIcons.MdLanguage className="lang" />
           <button className="lan" onClick={() => i18n.changeLanguage("en")}>
             {" "}
             English
           </button> |{" "}
           <button className="lan" onClick={() => i18n.changeLanguage("es")}>Español</button>
+          <MDIcons.MdLanguage className="lang" />
         </li>
       </ul>
 
