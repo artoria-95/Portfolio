@@ -34,3 +34,35 @@
 .wpp:hover {
   color: rgb(3, 189, 3);
 }
+
+/* MODAL */
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 700ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 1;
+}
+
+.close {
+  background-color: transparent;
+  color: black;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #94618E;
+  box-shadow: black;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.2s;
+}
+.close:hover{
+  background-color: #94618E;
+  color:#F4DECB;
+  padding: 10px;  
+}

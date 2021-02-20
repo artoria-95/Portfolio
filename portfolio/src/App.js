@@ -8,7 +8,6 @@ import "./App.css";
 
 function App() {
   return (
-    <body>
       <div className="container">
       <Navbar/>
         <section id="home">
@@ -25,7 +24,6 @@ function App() {
         </section>
       </div>
       
-    </body>
   );
 }
 

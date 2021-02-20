@@ -41,9 +41,9 @@ export default function Navbar() {
         <li className="item">
           <button className="lan" onClick={() => i18n.changeLanguage("en")}>
             {" "}
-            English
+            EN
           </button> |{" "}
-          <button className="lan" onClick={() => i18n.changeLanguage("es")}>Español</button>
+          <button className="lan" onClick={() => i18n.changeLanguage("es")}>ES</button>
           <MDIcons.MdLanguage className="lang" />
         </li>
       </ul>

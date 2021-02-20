@@ -34,6 +34,8 @@
   },
   "contacto": {
     "phone": "Phone:",
-    "cv": "Check out my resume!"
+    "cv": "Check out my resume!",
+    "modal":"Select document language:",
+    "close": "Close"
   }
 }

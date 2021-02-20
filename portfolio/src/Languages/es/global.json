@@ -34,6 +34,8 @@
   },
   "contacto": {
     "phone": "Teléfono:",
-    "cv": "Currículum"
+    "cv": "Currículum",
+    "modal":"Selecciona idioma del documento:",
+    "close": "Cerrar"
   }
 }
