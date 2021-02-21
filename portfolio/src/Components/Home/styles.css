@@ -29,7 +29,7 @@
 .hbtn:hover{
   background-color: #94618E;
   color:#F4DECB;
-  padding: 20px;  
+  transform: scale(1.2);  
 }
 
 
@@ -50,7 +50,8 @@ p {
     align-items: center;
     flex-direction: column;
     flex: 1 0 20%;
-    
+    border-radius: 6px;
+    padding: 5px;
 }
 .ana {
   float: right;
@@ -61,7 +62,3 @@ p {
   box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
   transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
-
-.dev:hover {
-  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
-}

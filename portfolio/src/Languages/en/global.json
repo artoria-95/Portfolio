@@ -12,7 +12,8 @@
   "projects":{
     "boton1":"View Project",
     "boton2":"View Repository",
-    "boton3":"Not available"
+    "boton3":"Not available",
+    "boton4":"Let's talk!"
   },
   "ecom": {
     "description":"Project developed in a team of 7 students for the HENRY bootcamp, in which we were to create an E-Commerce simulator.",

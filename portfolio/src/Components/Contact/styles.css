@@ -14,16 +14,18 @@
 .cbtn:hover{
   background-color: #94618E;
   color:#F4DECB;
-  padding: 20px;  
+  transform: scale(1.2);  
 }
 .gh, .lin, .wpp {
   color: #49274A;
   text-decoration: none;
   font-size: 40px;
-  transition: 0.2s;
+  transition: 0.3s;
+  margin:5px;
 }
 .gh:hover, .lin:hover, .wpp:hover {
-  font-size: 50px;  
+  
+  transform: scale(1.4);  
 }
 .gh:hover {
   color: black;
@@ -64,5 +66,5 @@
 .close:hover{
   background-color: #94618E;
   color:#F4DECB;
-  padding: 10px;  
+  transform: scale(1.3); 
 }

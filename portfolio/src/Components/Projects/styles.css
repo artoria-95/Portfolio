@@ -1,10 +1,9 @@
 
 .project-container {
   display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 -webkit-box-align: center;
 align-items: center;
-justify-content: center;
 flex-wrap: wrap;
 }
 
@@ -15,9 +14,20 @@ flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     flex: 1 0 20%;
-    width: 15%;
+    width: 400px;
     height: 500px;
     padding: 5%;
+    margin: 15px;
+    border-radius: 6px;
+    transition: 0.4s;
+    background-color: #F8EEE7;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+.project:hover{
+  transform: scale(1.07);
+}
+.project p{
+  font-size: 15px;
 }
 
 .pbtn {
@@ -35,12 +45,23 @@ flex-wrap: wrap;
 .pbtn:hover{
   background-color: #94618E;
   color:#F4DECB;
-  padding: 20px;  
+  transform: scale(1.1); 
 }
 
 
 .ecom {
   height:50%;
-  width:50%;
-  border: 2px solid #49274A;
+  width:60%;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 0 #49274A;
+}
+.happ {
+  box-shadow: 1px 1px 10px 0 #49274A;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+}
+.project h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
 }

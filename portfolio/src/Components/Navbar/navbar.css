@@ -64,6 +64,11 @@ h3 {
   padding: 10px;
   font-size: 15px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.lan:hover{
+  
+  transform: scale(1.5); 
 }
 
 .ic {

@@ -2,7 +2,7 @@
   "home":{
     "title":"¡Hola! ¡Mi nombre es Ana Barua!",
     "intro":"Soy Fullstack Web Developer, y me encuentro en búsqueda activa de un empleo excitante y desafiante donde pueda desarrollar mis habilidades, ¡y crecer como profesional!",
-    "boton":"Leer más"
+    "boton":"Conoceme"
   },
   "about": {
     "text1": "Estoy interesada tanto en Front como en Back end, y amo aprender cosas nuevas todos los días. ¡Espero algun día poder formar parte de un equipo donde seremos los mejores en lo que hacemos!",
@@ -12,7 +12,8 @@
   "projects":{
     "boton1":"Ver proyecto",
     "boton2":"Ver repositorio",
-    "boton3":"No disponible"
+    "boton3":"No disponible",
+    "boton4":"¡Hablemos!"
   },
   "ecom": {
     "description":"Proyecto desarrollado en equipo por 7 estudiantes para el HENRY bootcamp, en el cual creamos un simulador de E-Commerce.",

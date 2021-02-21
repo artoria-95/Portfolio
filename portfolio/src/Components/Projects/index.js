@@ -6,6 +6,7 @@ export default function Projects() {
   const [t, i18n] = useTranslation("global");
 
   return (
+    <div>
     <div className="project-container">
       <div className="project">
         <h4>e-Commerce</h4>
@@ -33,6 +34,10 @@ export default function Projects() {
          */}
         <a href="https://github.com/AlejoGschwind/HenryApp" target="_blank"><button className="pbtn">{t("projects.boton2")}</button></a>
       </div>
+    </div>
+    <a href="#contact">
+    <button className="pbtn">{t("projects.boton4")}</button>
+    </a>
     </div>
   );
 }
