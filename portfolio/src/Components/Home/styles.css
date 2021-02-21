@@ -41,3 +41,27 @@ h1 {
 p {
   font-size: 20px;
 }
+
+/* Imagen */
+
+.dev{
+  display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 20%;
+    
+}
+.ana {
+  float: right;
+  border-radius: 5px;
+  margin: 10px;
+  object-fit:cover;
+  filter: contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+
+.dev:hover {
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
