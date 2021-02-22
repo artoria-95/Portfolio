@@ -1,58 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 * {
-  box-sizing: border-box;
-  margin:0;
-  padding:0;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Fredericka the Great', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
 }
 body {
-  flex-direction: column;
   background-color: #F4DECB;
-  line-height: 1.6;
-  height: 100vh;
-  overflow:hidden;
 }
-
 .container {
-  width:80%;
-  height: 100vh;
-  /*CSS SMOOTH SCROLL*/
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(240, 1fr));
+  gap: 2rem;
   overflow-y: scroll;
-  scroll-behavior:smooth;  
-  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  transition: 0.4s;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width:100%;
-  height: 100vh;
-  scroll-snap-align: center;
+@media screen and (min-width: 700px) {
+
+   * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  body {
+    display:flex;
+    flex-direction: column;
+    background-color: #F4DECB;
+    line-height: 1.6;
+    height: 100vh;
+    overflow:hidden;
+  }
+  
+  .container {
+    display:block;
+    width:80%;
+    height: 100vh;
+  
+    /*CSS SMOOTH SCROLL*/
+    overflow-y: scroll;
+    scroll-behavior:smooth;  
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width:100%;
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+  
+  /*----------ScrollBar----------*/
+    
+  /*width*/
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /*Track*/
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.507); 
+    border-radius: 10px;
+  }
+   
+  /*Handle*/
+  ::-webkit-scrollbar-thumb {
+    background: #49274A; 
+    border-radius: 8px;
+  }
+   
 }
-
-
-/*----------ScrollBar----------*/
-
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.507); 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #49274A; 
-  border-radius: 8px;
-}
-

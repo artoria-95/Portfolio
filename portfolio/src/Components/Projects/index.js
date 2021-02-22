@@ -36,7 +36,7 @@ export default function Projects() {
       </div>
     </div>
     <a href="#contact">
-    <button className="pbtn">{t("projects.boton4")}</button>
+    <button className="pbtn4">{t("projects.boton4")}</button>
     </a>
     </div>
   );

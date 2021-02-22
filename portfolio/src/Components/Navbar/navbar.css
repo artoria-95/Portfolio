@@ -1,80 +1,82 @@
+@media screen and (min-width: 700px) {
 
-*{
-  margin:0;
-  padding:0;
-  list-style: none;
-}
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  right:0;
-  width: 20%;
-  height: 100vh;
-  background-color: #F8EEE7;
-  justify-content: space-between;
-  color: #49274A;
-}
-.sidebar ul li {
-  display:block;
-  height:17vh;
-  width:100%;
-  line-height: 60px;
-  font-size: 30px;
-  box-sizing: border-box;
-  text-align: right;
-  padding:20px;
-  transition: 0.4s;
-  text-decoration: none;
-  color: #49274A;
-}
-ul li:hover {
-  padding-right:40px;
-  background-color: #94618E;
-  color: #F8EEE7;
-}
-.lan:hover {
-  color: #F8EEE7;
-}
-
-a {
-  color: #49274A;
-}
-a:hover {
-  color: #F8EEE7;
-}
-
-h3 {
-  display:block;
-  height:25vh;
-  width:100%;
-  line-height: 60px;
-  font-size: 35px;
-  box-sizing: border-box;
-  padding:20px;
-  text-align: center;
-  background-color: #94618E;
-  color:#F8EEE7;
-  border-bottom: 1px solid #94618E;
-}
-
-.lan {
-  border:hidden;
-  background-color: transparent;
-  padding: 10px;
-  font-size: 15px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.lan:hover{
-  
-  transform: scale(1.5); 
-}
-
-.ic {
-  padding:5px;
-}
-
-a {
-  text-decoration: none;
+  *{
+   margin:0;
+   padding:0;
+   list-style: none;
+ }
+ .sidebar {
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   right:0;
+   width: 20%;
+   height: 100vh;
+   background-color: #F8EEE7;
+   justify-content: space-between;
+   color: #49274A;
+ }
+ .sidebar ul li {
+   display:block;
+   height:17vh;
+   width:100%;
+   line-height: 60px;
+   font-size: 30px;
+   box-sizing: border-box;
+   text-align: right;
+   padding:20px;
+   transition: 0.4s;
+   text-decoration: none;
+   color: #49274A;
+ }
+ ul li:hover {
+   padding-right:40px;
+   background-color: #94618E;
+   color: #F8EEE7;
+ }
+ .lan:hover {
+   color: #F8EEE7;
+ }
+ 
+ a {
+   color: #49274A;
+ }
+ a:hover {
+   color: #F8EEE7;
+ }
+ 
+ h3 {
+   display:block;
+   height:25vh;
+   width:100%;
+   line-height: 60px;
+   font-size: 35px;
+   box-sizing: border-box;
+   padding:20px;
+   text-align: center;
+   background-color: #94618E;
+   color:#F8EEE7;
+   border-bottom: 1px solid #94618E;
+ }
+ 
+ .lan {
+   border:hidden;
+   background-color: transparent;
+   padding: 10px;
+   font-size: 15px;
+   cursor: pointer;
+   transition: 0.3s;
+ }
+ .lan:hover{
+   
+   transform: scale(1.5); 
+ }
+ 
+ .ic {
+   padding:5px;
+ }
+ 
+ a {
+   text-decoration: none;
+ } 
 }

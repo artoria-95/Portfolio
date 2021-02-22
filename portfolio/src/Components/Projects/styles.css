@@ -1,4 +1,81 @@
+.project-container {
+  display: grid;
+justify-content: space-evenly;
+-webkit-box-align: center;
+align-items: center;
+gap: 1rem;
+}
+.project {
+  display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 0 20%;
+    width: 300px;
+    height:max-content;
+    padding: 5%;
+    margin: 15px;
+    border-radius: 6px;
+    transition: 0.4s;
+    background-color: #F8EEE7;
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
 
+.ecom {
+  height:50%;
+  width:90%;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 0 #49274A;
+}
+.happ {
+  box-shadow: 1px 1px 10px 0 #49274A;
+  padding: 4px;
+  border-radius: 2px;
+  background-color: black;
+  width: 90%;
+}
+
+.project h4 {
+  font-size: 20px;
+}
+.project p {
+  font-size: 15px;
+}
+.pbtn {
+  background-color: #49274A;
+  color: #F4DECB;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #49274A;
+  box-shadow: black;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
+  
+}
+.pbtn4 {
+  background-color: #49274A;
+  color: #F4DECB;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #49274A;
+  box-shadow: black;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+  width: 90%;
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
+  
+  
+}
+
+
+@media screen and (min-width: 700px){
+ 
 .project-container {
   display: flex;
 justify-content: space-evenly;
@@ -22,7 +99,8 @@ flex-wrap: wrap;
     transition: 0.4s;
     background-color: #F8EEE7;
     box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
-}
+gap: 1rem;
+  }
 .project:hover{
   transform: scale(1.07);
 }
@@ -30,7 +108,7 @@ flex-wrap: wrap;
   font-size: 15px;
 }
 
-.pbtn {
+.pbtn, .pbtn4 {
   background-color: #49274A;
   color: #F4DECB;
   padding: 10px;
@@ -42,7 +120,7 @@ flex-wrap: wrap;
   font-size: 20px;
   transition: 0.2s;
 }
-.pbtn:hover{
+.pbtn:hover, .pbtn4:hover{
   background-color: #94618E;
   color:#F4DECB;
   transform: scale(1.1); 
@@ -50,8 +128,7 @@ flex-wrap: wrap;
 
 
 .ecom {
-  height:50%;
-  width:60%;
+  width:90%;
   border-radius: 4px;
   box-shadow: 1px 1px 10px 0 #49274A;
 }
@@ -60,8 +137,12 @@ flex-wrap: wrap;
   padding: 4px;
   border-radius: 2px;
   background-color: black;
+  width: 90%;
 }
 .project h4 {
   font-size: 20px;
   margin-bottom: 5px;
+} 
+
+
 }

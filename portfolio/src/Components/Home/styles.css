@@ -1,64 +1,91 @@
-/* Contenedores */
-
-.div1 {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+.ana {
+  border-radius: 5px;
+  object-fit:cover;
+  filter: contrast(120%);
+  box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
+  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
 }
-.div2 {
-  display: inline-block;
-  background-color:transparent;
-    height: max-content;
-  width: max-content;
-  position: relative;
-}
-
-/* Boton */
 .hbtn {
   background-color: #49274A;
   color: #F4DECB;
   padding: 10px;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
   border-radius: 4px;
   border: 2px solid #49274A;
   box-shadow: black;
   text-decoration: none;
   font-size: 20px;
   transition: 0.2s;
-}
-.hbtn:hover{
-  background-color: #94618E;
-  color:#F4DECB;
-  transform: scale(1.2);  
-}
-
-
-/* Texto */
-
-h1 {
-  font-size: 40px;
-}
-p {
-  font-size: 20px;
-}
-
-/* Imagen */
-
-.dev{
-  display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-direction: column;
-    flex: 1 0 20%;
-    border-radius: 6px;
-    padding: 5px;
-}
-.ana {
-  float: right;
-  border-radius: 5px;
-  margin: 10px;
-  object-fit:cover;
-  filter: contrast(120%);
+  width: 90%;
   box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
-  transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+}
+
+@media screen and (min-width: 700px) {
+
+  
+  .div1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
+  .div2 {
+    display: inline-block;
+    background-color:transparent;
+      height: max-content;
+    width: max-content;
+    position: relative;
+  }
+  
+
+  .hbtn {
+    background-color: #49274A;
+    color: #F4DECB;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid #49274A;
+    box-shadow: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+  }
+  .hbtn:hover{
+    background-color: #94618E;
+    color:#F4DECB;
+    transform: scale(1.2);  
+  }
+  
+  
+
+  
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  
+
+  
+  .dev{
+    display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      flex-direction: column;
+      flex: 1 0 20%;
+      border-radius: 6px;
+      padding: 5px;
+  }
+  .ana {
+    float: right;
+    border-radius: 5px;
+    margin: 10px;
+    object-fit:cover;
+    filter: contrast(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0, 0, 0, .2);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+}
+
