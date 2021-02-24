@@ -52,8 +52,8 @@ export default function Contact() {
               textAlign: "center",
               position: "absolute",
               top: "30vh",
-              left: "30%",
-              right: "30%",
+              left: "35vw",
+              right: "30vw",
               bottom: "30vh"
             },
           }}
