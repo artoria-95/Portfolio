@@ -5,6 +5,7 @@
   margin:0;
   padding:0;
   font-family: 'Fredericka the Great', cursive;
+  --transition-speed: 600ms;
 }
 body {
   flex-direction: column;
@@ -15,7 +16,6 @@ body {
 }
 
 .container {
-  width:80%;
   height: 100vh;
   /*CSS SMOOTH SCROLL*/
   overflow-y: scroll;
