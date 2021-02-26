@@ -7,14 +7,14 @@ export default function About() {
   const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="div1">
-      <div className="div2">
+    <div className="div-1">
+      <div className="div-2">
         <p>
           {t("about.text1")}
           <br />
           {t("about.text2")}
           <br />
-          <div className="ic">
+          <div className="skills">
             <i><FaIcons.FaHtml5 /></i>
             <i><FaIcons.FaCss3Alt /></i>
             <i><FaIcons.FaNodeJs /></i>
