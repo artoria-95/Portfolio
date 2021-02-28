@@ -36,7 +36,7 @@
   "contacto": {
     "phone": "Phone:",
     "cv": "Check out my resume!",
-    "modal":"Select document language:",
+    "modal":"Select language:",
     "close": "Close"
   }
 }
