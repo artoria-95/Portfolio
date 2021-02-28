@@ -67,7 +67,7 @@ section {
       grid-auto-flow: dense;
       grid-area: span;
     }
-    #projects {
+    section {
       height: auto;
     }
     
