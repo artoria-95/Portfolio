@@ -9,9 +9,9 @@ export default function Home() {
 const [t, i18n] = useTranslation("global");
 
   return (
-    <div className="div1">
+    <div className="divh1">
       
-      <animated.div className="div2" style={props}>
+      <animated.div className="divh2" style={props}>
         <h1>{t("home.title")}</h1>
         <p>
           {t("home.intro")}
@@ -19,11 +19,12 @@ const [t, i18n] = useTranslation("global");
         
       </animated.div>
       <animated.div className="dev" style={props}>
-        
+       <div className="imagen"> 
         <img
           src="https://media-exp1.licdn.com/dms/image/C4E03AQHPxkhz29TPeg/profile-displayphoto-shrink_200_200/0/1611190654795?e=1618444800&v=beta&t=sFR3PAmdpPe-lHsKgsu1rQSlKGRFD4gX40g0CxV-smE"
           className="ana"
         />
+        </div>
         <div class="glow-wrap">
     <i class="glow"></i>
   </div>

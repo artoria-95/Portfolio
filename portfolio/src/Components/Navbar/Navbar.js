@@ -92,17 +92,19 @@ export default function Navbar() {
               textAlign: "center",
               position: "absolute",
               top: "30vh",
-              left: "40vw",
+              left: "35vw",
               right: "30vw",
               bottom: "30vh"
             },
           }}
         >
+          
+          <h2>{t("contacto.modal")}</h2>
               <button className="cbtn" onClick={() => i18n.changeLanguage("en")}>
-                EN
+                English
               </button>
               <button className="cbtn" onClick={() => i18n.changeLanguage("es")}>
-                ES
+                Español
               </button>
               <div>
             <button onClick={() => setOpen(false)} className="close">
