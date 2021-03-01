@@ -65,16 +65,18 @@ section {
       height: 100%;
       display: grid;
       grid-auto-flow: dense;
-      grid-area: span;
     }
     section {
       height: auto;     
     }
     
   }
-  @media (max-width: 600px){
+  @media (max-width: 850px){
     #contact {
-      margin-bottom: 10rem;
+      margin-bottom: 5rem;
       margin-top: 5rem;
+    }
+    #about {
+      margin-bottom: 3rem;
     }
   }
