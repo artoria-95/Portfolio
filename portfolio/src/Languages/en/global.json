@@ -23,6 +23,10 @@
     "description":"A platform for HENRY students where they can find studying material and recorded lectures, see their account status, and once they pass the final stage of the course they can have access to real job offers",
     "technologies":"Technologies:"
   },
+  "randomapp":{
+    "description":"In progress! An app I am currently working on, filled with surprises, this app will redirect to different random fun and senseless projects, but it will also have secret content within itself.",
+    "technologies":"Technologies:"
+  },
   "dropups": {
     "dalt":"Colorblind mode",
     "reg":"Regular Theme"

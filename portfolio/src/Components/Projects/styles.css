@@ -35,13 +35,13 @@ margin-left: 5rem;
 .pbtn {
   background-color: #49274A;
   color: #F4DECB;
-  padding: 10px;
-  margin: 10px;
+  padding: 8px;
+  margin: 5px;
   border-radius: 4px;
   border: 2px solid #49274A;
   box-shadow: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   transition: 0.2s;
 }
 .pbtn:hover{
@@ -51,7 +51,7 @@ margin-left: 5rem;
 }
 
 
-.ecom {
+.ecom, .ranapp {
   height:50%;
   width:80%;
   border-radius: 4px;
@@ -64,6 +64,7 @@ margin-left: 5rem;
   border-radius: 2px;
   background-color: black;
 }
+
 .project h4 {
   font-size: 20px;
   margin-bottom: 5px;

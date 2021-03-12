@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { useTranslation } from "react-i18next";
+import randapp from './RandomAppScreen.png';
 
 export default function Projects() {
   const [t, i18n] = useTranslation("global");
@@ -33,6 +34,23 @@ export default function Projects() {
         {/* <button className="btn">{t("projects.boton3")}</button>
          */}
         <a href="https://github.com/AlejoGschwind/HenryApp" target="_blank"><button className="pbtn">{t("projects.boton2")}</button></a>
+      </div>
+      <div className="project">
+        <h4>The Random App</h4>
+        <img src={randapp} className="ranapp"/>
+        <p>
+          {t("randomapp.description")}
+          <br />
+          {t("randomapp.technologies")} React | JavaScript | HTML5 | CSS3 
+        </p>
+        {/* <button className="btn">{t("projects.boton3")}</button>
+        */}
+        <a href="https://artoria-95.github.io/The-Random-App/" target="_blank">
+          <button className="pbtn">{t("projects.boton1")}</button>
+        </a>
+        <a href="https://github.com/artoria-95/The-Random-App" target="_blank">
+          <button className="pbtn">{t("projects.boton2")}</button>
+        </a>
       </div>
     </div>
     <a href="#contact">

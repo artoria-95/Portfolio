@@ -23,6 +23,10 @@
     "description":"Una plataforma para alumnos de HENRY donde pueden encontrar material de estudio, clases grabadas, ver su estado de cuenta, y una vez terminado el último módulo pueden acceder a una bolsa de empleo.",
     "technologies":"Tecnologías:"
   },
+  "randomapp":{
+    "description":"En construcción! Una app en la que estoy trabajando actualmente, llena de sorpresas, esta app va a redirigir a diferentes proyectos aleatorios, divertidos y sin sentido, y tendrá también contenido secreto dentro de si misma.",
+    "technologies":"Tecnologías:"
+  },
     "dropups": {
     "dalt":"Apto daltonismo",
     "reg":"Pagina regular"
